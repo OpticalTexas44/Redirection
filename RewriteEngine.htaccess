@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^tobtach\.be$ [NC]
+RewriteRule ^(.*)$ https://www.tobtach.com/$1 [L,R=301]
